@@ -1,4 +1,4 @@
-# instagram_clone
+# Instagram_clone
 A simple instagram clone inplemented in Django python 🐍
 
 Description
