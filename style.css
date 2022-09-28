@@ -85,7 +85,8 @@ nav>a:hover {
 section {
     position: absolute;
     right: 0;
-    width: 81.7%;
+    width: 81.5%;
+    height: 150vh;
 }
 
 .section-container {
@@ -197,8 +198,41 @@ section {
 .gallery button {
     cursor: pointer;
 }
-.gallery-img img{
+
+.gallery-img img {
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
+}
+
+.second-part {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+    transition: all ease-in .4s;
+}
+
+.second-part ul {
+    position: relative;
+    top: -10px;
+}
+
+.anchor {
+    /* background-color: red; */
+    width: 100px;
+    padding: var(--padding);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+    transition: all ease-in .3s;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.anchor:hover {
+    border-top: 3px solid black;
+    color: black;
 }
