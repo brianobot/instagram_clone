@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -21,14 +23,14 @@
         <nav>
             <header>Instagram</header>
             <ul>
-                <li><a href="#" class="nav-link"><i class="fa-solid fa-house "></i>&nbsp; Home</a></li>
-                <li><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i>&nbsp; Explore</a></li>
-                <li><a href="#" class="nav-link"><i class="fa-regular fa-paper-plane"></i>&nbsp; Messages</a></li>
-                <li><a href="#" class="nav-link"><i class="fa-regular fa-heart"></i>&nbsp; Notifications</a></li>
-                <li><a href="#" class="nav-link"><i class="fa-regular fa-square-plus"></i>&nbsp; Create</a></li>
-                <li><a href="#" class="nav-link"><i class="fa-regular fa-user"></i>&nbsp; Profile</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-solid fa-house "></i>&nbsp; Home</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-solid fa-magnifying-glass"></i>&nbsp; Explore</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-regular fa-paper-plane"></i>&nbsp; Messages</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-regular fa-heart"></i>&nbsp; Notifications</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-regular fa-square-plus"></i>&nbsp; Create</a></li>
+                <li><a href="#" class="text-dark"><i class="fa-regular fa-user"></i>&nbsp; Profile</a></li>
             </ul>
-            <a href="#"><i class="fa-solid fa-bars"></i>&nbsp; More</a>
+            <a href="#" class="text-dark"><i class="fa-solid fa-bars"></i>&nbsp; More</a>
         </nav>
         <section>
             <div class="section-container">
@@ -64,25 +66,58 @@
                 </div>
             </div>
             <div class="second-part container-fluid">
-                <ul class="d-flex flex-row justify-content-around w-50 m-auto align-items-center">
-                    <li class="list-group-item p-2"><a href="#" class="anchor">
+                <ul class='list-links'>
+                    <li><a href="#">
                             <svg style="width:16px;height:16px" viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M10,4V8H14V4H10M16,4V8H20V4H16M16,10V14H20V10H16M16,16V20H20V16H16M14,20V16H10V20H14M8,20V16H4V20H8M8,14V10H4V14H8M8,8V4H4V8H8M10,14H14V10H10V14M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4C2.92,22 2,21.1 2,20V4A2,2 0 0,1 4,2Z" />
                             </svg>&nbsp;Posts</a></li>
-                    <li class="list-group-item p-2"><a href="#" class="anchor"><svg style="width:16px;height:16px"
-                                viewBox="0 0 24 24">
+                    <li><a href="#"><svg style="width:16px;height:16px" viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
                             </svg>&nbsp;Saved</a></li>
-                    <li class="list-group-item p-2">
-                        <a href="#" class="anchor">
+                    <li>
+                        <a href="#">
                             <svg style="width:16px;height:16px" viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M6,17C6,15 10,13.9 12,13.9C14,13.9 18,15 18,17V18H6M15,9A3,3 0 0,1 12,12A3,3 0 0,1 9,9A3,3 0 0,1 12,6A3,3 0 0,1 15,9M3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5C3.89,3 3,3.9 3,5Z" />
                             </svg>&nbsp;Tagged</a>
                     </li>
                 </ul>
+                <div class="w-50 p-3 text-center" id="new-div">
+                    <div class="camera m-auto">
+                        <span class="material-symbols-outlined">
+                            photo_camera
+                        </span>
+
+                    </div>
+                    <div class="share-section mt-4">
+                        <h1 class="fw-semibold">Share your Photos</h1>
+                        <p class="mt-3">When you share your photos they appear on your profile</p>
+                        <a href="#" class="fw-bold text-decoration-none text-primary">Share your first photo</a>
+                    </div>
+                </div>
+                <footer class="">
+                    <ul class="w-100 m-auto list-unstyled d-flex flex-wrap justify-content-around">
+                        <li class="px-2"><a href="" class="text-decoration-none">Meta</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">About</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Jobs</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Help</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">API</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Privacy</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Terms</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Top Accounts</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Hashtags</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Locations</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Instagram Lite</a></li>
+                        <li class="px-2"><a href="" class="text-decoration-none">Contact Uploading & Non-Users</a></li><br><br>
+                        </ul>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center mt-2">
+                            <li class="mx-3">English</li>
+                        <li class="mx-3">&copy; 2022 Instagram from Meta</li>
+                        </ul>
+
+                </footer>
             </div>
         </section>
 

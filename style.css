@@ -64,8 +64,7 @@ nav ul li:hover {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
-    font-size: 18px;
+       font-size: 18px;
 }
 
 nav>a {
@@ -80,13 +79,14 @@ nav>a {
 
 nav>a:hover {
     background-color: #F5F5F5;
-}
+   }
 
 section {
     position: absolute;
     right: 0;
     width: 81.5%;
-    height: 150vh;
+    height: 200vh;
+    background: #F5F5F5;
 }
 
 .section-container {
@@ -212,13 +212,15 @@ section {
     transition: all ease-in .4s;
 }
 
-.second-part ul {
-    position: relative;
-    top: -10px;
+.list-links{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
 }
-
-.anchor {
-    /* background-color: red; */
+.list-links li a{
     width: 100px;
     padding: var(--padding);
     text-align: center;
@@ -226,13 +228,40 @@ section {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: grey;
+    color: rgb(107, 105, 105);
     transition: all ease-in .3s;
     text-transform: uppercase;
     font-size: 14px;
 }
-
-.anchor:hover {
-    border-top: 3px solid black;
+.list-links li a:hover{
+    border-top: 2.2px solid black;
     color: black;
+}
+#new-div{
+    margin: 70px auto 0;
+}
+.camera{
+    background-color: transparent;
+    width: 75px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 2px solid;
+}
+.camera span{
+    font-size: 45px;
+    color: rgb(46, 45, 45);
+}
+footer{
+    width: 88%;
+    margin: 60px auto 0;
+}
+footer ul li a{
+    color: rgb(107, 105, 105);
+    font-size: 14px;
+}
+footer ul li{
+    color: rgb(107, 105, 105);
+    font-size: 14px;
 }
