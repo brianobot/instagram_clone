@@ -57,6 +57,11 @@ class Profile(models.Model):
     def following_count(self):
         return Profile.objects.filter(followers__handle__icontains=self.handle).count()
 
+
+    @property
+    def posts_count(self):
+        return self.posts.count()
+
     def __str__(self):
         return str(self.handle)
 

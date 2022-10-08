@@ -114,6 +114,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# extra places to find static filed outside static folder inside installed apps
+STATICFILES_DIRS = [ BASE_DIR/"static" ]
+
 MEDIA_ROOT = BASE_DIR/"media"
 
 MEDIA_URL = "/media/"
